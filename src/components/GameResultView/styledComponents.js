@@ -4,7 +4,7 @@ export const GameViewContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 600px;
   flex-wrap: wrap;
   margin-top: 60px;
   @media screen and (max-width: 576px) {
@@ -15,15 +15,15 @@ export const GameViewContainer = styled.div`
 `
 
 export const GameButton = styled.button`
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   background-color: transparent;
   border-style: none;
   outline: none;
   cursor: pointer;
   @media screen and (max-width: 576px) {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin-top: 0px;
     margin-right: 0px;
   }
@@ -43,31 +43,38 @@ export const ResultImageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-right: 40px;
+  width: 40%;
   @media screen and (max-width: 576px) {
     width: 30%;
   }
 `
 export const ResultName = styled.p`
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
   @media screen and (max-width: 576px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `
 
 export const ResultText = styled.p`
   color: #ffffff;
-  font-size: 25px;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
   @media screen and (max-width: 576px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `
 export const ResultButton = styled.button`
-  width: 100px;
-  height: 28px;
+  width: 120px;
+  height: 30px;
   padding: 10px;
   color: #223a5f;
-  font-size: 10px;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: center;

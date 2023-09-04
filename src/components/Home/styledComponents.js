@@ -49,10 +49,11 @@ export const PopUpImage = styled.img`
 export const TriggerButton = styled.button`
   width: 60px;
   height: 28px;
-  padding: 10px;
+  padding: 10px 14px;
   color: #223a5f;
   font-family: 'Bree Serif';
-  font-size: 10px;
+  font-size: 12px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
